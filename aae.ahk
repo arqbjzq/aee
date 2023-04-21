@@ -25,7 +25,7 @@ get_shards(bond_page, bond_row)
     bond_y := 0.25 + (0.095*(bond_row-1))
 
     ; open collections
-    Send, {Blind}à
+    Send, {Blind}m
     Sleep, 1000
     ; click armor
     Click, % A_ScreenWidth*0.46992 " " A_ScreenHeight*0.33264
